@@ -1,0 +1,42 @@
+/* Phonebook.css */
+
+.alert {
+    background-color: #f8d7da; /* Kolor tła */
+    color: #721c24; /* Kolor tekstu */
+    border: 1px solid #f5c6cb; /* Ramka */
+    padding: 10px; /* Wewnętrzny odstęp */
+    border-radius: 4px; /* Zaokrąglenie narożników */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; /* Odstęp od góry */
+  }
+  
+  .alert button {
+    background-color: #f5c6cb; /* Kolor tła przycisku */
+    color: #721c24; /* Kolor tekstu przycisku */
+    border: none; /* Usunięcie ramki przycisku */
+    padding: 5px 10px; /* Wewnętrzny odstęp przycisku */
+    border-radius: 4px; /* Zaokrąglenie narożników przycisku */
+    cursor: pointer; /* Zmień kursor na wskaźnik na przycisku */
+  }
+  
+  .alert button:hover {
+    background-color: #721c24; /* Kolor tła przycisku po najechaniu kursorem */
+    color: #f8d7da; /* Kolor tekstu przycisku po najechaniu kursorem */
+  }
+  
+
+  .delete-button {
+    background-color: #ff6b6b; /* Kolor tła przycisku Delete */
+    color: white; /* Kolor tekstu przycisku Delete */
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px; /* Dodaj margines po lewej stronie przycisku */
+  }
+  
+  .delete-button:hover {
+    background-color: #e74c3c; /* Kolor tła przycisku Delete po najechaniu kursorem */
+  }
