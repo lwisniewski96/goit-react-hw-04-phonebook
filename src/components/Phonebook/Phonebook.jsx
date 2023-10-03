@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { nanoid } from 'nanoid';
-import ContactForm from './ContactForm';
-import Filter from './Filter';
-import ContactList from './ContactList';
+import ContactForm from '../ContactForm/ContactForm';
+import Filter from '../Filter/Filter';
+import ContactList from '../ContactList/ContactList';
 import './Phonebook.css';
 
 function Phonebook() {
@@ -72,7 +72,7 @@ function Phonebook() {
   const handleAlertClose = () => {
     setShowAlert(false);
   };
-  const handleAlert = (text) => {
+  const handleAlert = text => {
     setAlertText(text);
     setShowAlert(true);
   };
